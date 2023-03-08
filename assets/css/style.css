@@ -1,0 +1,232 @@
+/*git add .
+git commit -m "MESSAGE"
+git push*/
+
+* {
+  padding: 0;
+  margin: 0;
+  font-family: sans-serif;
+  list-style: none;
+}
+
+.nv00_main-header {
+  position: relative;
+  width: 100%;
+  height: 80px;
+  background-color: #fff;
+  box-shadow: 1px 1px;
+  font-size: 0;
+  z-index: 2000;
+  word-wrap: break-word;
+  word-break: break-word;
+  flex-wrap: nowrap;
+}
+
+.nv00_logo-wrap {
+  align-items: center;
+  width: 120px;
+  height: 100%;
+  margin-right: 64px;
+  display: inline-flex;
+  flex-shrink: 0;
+  justify-content: flex-start;
+}
+
+.nv00_logo {
+  position: relative;
+  width: 100%;
+}
+
+.nv00_logo-image {
+  display: inline-block;
+  position: relative;
+  width: 100%;
+  font-size: 0;
+}
+
+.nv00_inner-wrap {
+  background-color: #fff;
+  justify-content: flex-start;
+  align-items: flex-start;
+  position: relative;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 0 16px;
+  z-index: 1;
+}
+
+.nv00_menu-wrap {
+  flex-grow: 1;
+  display: inline-flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  position: relative;
+  height: 100%;
+}
+
+.nv00_menu-right-list {
+  height: 100%;
+  display: inline-flex;
+  align-items: center;
+}
+
+.nv00_menu-left-list {
+  height: 100%;
+}
+
+.nv00_menu {
+  display: inline-flex;
+  justify-content: flex-start;
+  align-items: center;
+  position: relative;
+  height: 100%;
+  margin-right: 1px;
+}
+
+.nv00_menu-btn {
+  align-items: center;
+  position: relative;
+  padding: 0 8px;
+  font-size: 14px;
+  line-height: 32px;
+  font-weight: bold;
+  color: #000;
+  z-index: 3;
+  justify-content: flex-start;
+  display: inline-flex;
+  border-radius: 16px;
+}
+
+button {
+  border: 0;
+  width: auto;
+  margin: 0;
+  overflow: visible;
+  background: 0;
+  text-align: inherit;
+  border-radius: 0;
+  cursor: pointer;
+  font: inherit;
+}
+
+.nv00_menu-btn:hover {
+  background-color: #000000;
+  color: #fff;
+}
+
+.nv00_utility-wrap {
+  flex-shrink: 0;
+  display: inline-flex;
+  justify-content: flex-start;
+  align-items: center;
+  position: relative;
+  height: 100%;
+  margin-left: 28px;
+}
+
+.nv00_utility-search {
+  margin-right: 8px;
+  align-items: center;
+  position: relative;
+  height: 100%;
+  justify-content: flex-start;
+  display: inline-flex;
+}
+
+.nv00_utility-btn {
+  padding: 8px;
+  width: 45px;
+  height: 45px;
+}
+
+.icon {
+  width: 32px;
+  height: 32px;
+}
+
+.nv00_utility-btn img {
+  max-width: 100%;
+  min-height: 100%;
+  object-fit: cover;
+}
+
+.nv00_utility-cart {
+  margin-right: 8px;
+  align-items: center;
+  position: relative;
+  height: 100%;
+  justify-content: flex-start;
+  display: inline-flex;
+}
+
+.nv00_utility-before-login {
+  margin-right: 8px;
+  align-items: center;
+  position: relative;
+  height: 100%;
+  justify-content: flex-start;
+  display: inline-flex;
+}
+
+.nv00_hamburger {
+  display: inline-flex;
+  align-items: center;
+  position: relative;
+  height: 100%;
+  margin-right: 28px;
+}
+
+.nv00_utility-hamburger {
+  display: none;
+  padding: 8px;
+}
+
+.nv00_utility-hamburger img {
+  width: 32px;
+  height: 32px;
+}
+
+.nv00_nav-links {
+  position: absolute;
+  padding: 10px;
+  display: none;
+  justify-content: space-between;
+  width: 360px;
+  height: auto;
+  box-sizing: border-box;
+  left: 75%;
+  background-color: #ff0000;
+}
+
+.nv00_left-menu-btn {
+  color: #000;
+  font-weight: bold;
+  align-items: center;
+  position: relative;
+  padding: 0 8px;
+  font-size: 14px;
+  line-height: 32px;
+  color: #000;
+  justify-content: flex-start;
+  display: inline-flex;
+  border-radius: 16px;
+}
+
+.nv00_left-menu-btn:hover {
+  background-color: #000000;
+  color: #fff;
+}
+
+@media screen and (max-width: 1375px) {
+  .nv00_nav-links,
+  .nv00_utility-hamburger {
+    display: block;
+  }
+
+  .nv00_menu {
+    display: none;
+  }
+}
